@@ -13,6 +13,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+img{
+  max-width:92vw;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -25,7 +29,6 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -67,8 +70,7 @@ button:focus-visible {
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Outfit:wght@100..900&display=swap');
+
 
 .heading1{
   font-family: "Outfit", sans-serif;
