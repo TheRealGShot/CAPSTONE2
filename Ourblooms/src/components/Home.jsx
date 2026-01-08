@@ -1,5 +1,6 @@
 import Hero from './Hero.jsx'
 import Footer from './Footer.jsx'
+import WorkWithUs from './WorkWithUs.jsx'
 
 import c from "../assets/carousel_images/Image.png"
 import c1 from "../assets/carousel_images/Image-1.png"
@@ -71,11 +72,7 @@ function Home(){
                 <img src={midsec2} alt="Mid Section Image"/>
                 </picture>
 
-                <div className="work_with_us">
-                <p className="caption1">Work with us</p>
-                <p className="heading2">Discover how we can add a touch of natural beauty to your next event.</p>
-                <button className="button_danger">.About US</button>
-                </div>
+                <WorkWithUs/>
 
                 <Footer/>
 
