@@ -1,0 +1,49 @@
+.header{
+    text-align:start;
+    padding:2% 0%;
+}
+.galleryContainer{
+    display:grid;
+    background-color:aliceblue;
+    grid-template-areas:
+        'pic1 pic2 pic3'
+        'pic4 pic5 pic6'
+        'pic7 pic8 pic9'    
+    ;
+    gap:20px;
+    place-items:end;
+    text-align:start;
+}
+.galleryContainer img{
+    width:100;
+}
+.image{
+    grid-area:pic1;
+}
+.image2{
+    grid-area:pic2;
+}
+.image3{
+    grid-area:pic3;
+}
+.image4{
+    grid-area:pic4;
+}
+.image5{
+    grid-area:pic5;
+}
+.image6{
+    grid-area:pic6;
+}
+.image7{
+    grid-area:pic7;
+}
+.image8{
+    grid-area:pic8;
+}
+.image9{
+    grid-area:pic9;
+}
+@media screen and (max-width){
+    
+}
