@@ -17,7 +17,7 @@ import Services from '../components/Services.jsx'
 function Gallery(){
     return(
         <>
-
+            
             <div className={styles.header}>
                 <h1 classname="heading1">GALLERY</h1>
             </div>
@@ -96,6 +96,7 @@ function Gallery(){
             <Services/>
             <WorkWithUs/>
             <Footer/>
+
         </>
     );
 }

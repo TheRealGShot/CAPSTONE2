@@ -1,7 +1,7 @@
 #root {
   max-width: 100%;
   margin: 0 ;
-  padding: 0;
+  padding: 2rem;
   text-align: center;
 }
 
@@ -33,4 +33,14 @@
 
 .work_with_us{
   padding:174px 200px;
+}
+@media screen and (max-width:799px) {
+  #root{
+    padding:1rem 1rem;
+  }
+}
+@media screen and (min-width:800px) and (max-width:1199px) {
+  .work_with_us{
+    padding:20px 0px;
+  }
 }

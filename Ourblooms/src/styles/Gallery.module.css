@@ -69,6 +69,6 @@
                              'pic8'
                              'pic9';
         place-items: center;
-        grid-template-columns: 1fr; /* Ensure only one column */
+        grid-template-columns: 1fr; 
     }
 }

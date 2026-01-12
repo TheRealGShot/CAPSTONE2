@@ -31,6 +31,11 @@
     padding-top:70px;
     padding-bottom:70px;
 }
+@media screen and (min-width:800px) and (max-width:1199px){
+    .text{
+        width:400px;
+    }
+}
 @media screen and (max-width:799px){
     .text{
         width:300px;
@@ -40,7 +45,8 @@
                             'rc'
                             'rc'
                             'rc'
-                            'rc'
+                            'rc';
+        place-items: center;
     }
     .story{
         width:100%;

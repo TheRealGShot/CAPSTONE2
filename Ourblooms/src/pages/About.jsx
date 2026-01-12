@@ -65,11 +65,14 @@ function About(){
                         </p>
                     </div>
                     <button className="button_danger">• BOOK A CONSULTATION</button>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
                     <Footer/>
                 </div>
             </div>
-
-            
         </>
     );
 }
