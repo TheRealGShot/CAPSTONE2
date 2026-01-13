@@ -5,12 +5,12 @@ function Navbar() {
     return (
         <>
             <nav className={styles.navbar}>
-                <p className="display">Our Blooms</p>
+                <p className="display"><Link to="/" className="display">Our Blooms</Link></p>
                 <ul className={styles.ul}>
                     <li className="caption1">
-                        <Link to="/gallery">GALLERY</Link>
+                        <Link to="/gallery" className="caption1">GALLERY</Link>
                     </li>
-                    <li className="caption1">ABOUT</li>
+                    <li className="caption1"><Link to="/about" className="caption1">ABOUT</Link></li>
                     <li className="caption1">CONTACT</li>
                 </ul>
             </nav>
