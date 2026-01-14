@@ -9,6 +9,7 @@
 }
 
 .container{
+    width:97vw;
     display:grid;
     grid-template-areas: 'cap cap rc rc rc rc rc rc rc rc rc rc rc rc';
 }
